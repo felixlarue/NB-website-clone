@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+--bs-font-sans-serif:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+html {
+min-width: 100%;
+font-family: var(--bs-font-sans-serif);
+}
+
+body {
+background: black;
+width: 100%;
+height: 100%;
+position: fixed;
+}
+
+header {
+    height: 100px;
+    width: 100%;
+    margin-top: 1%;
+}
+
+header a {
+    color: #808080;
+    font-size: 1em;
+    text-decoration: none;
+    margin-top: 50%;
+    font-family: var(--bs-font-sans-serif);
+    font-weight: 700;
+}
+
+header a:hover {
+    padding-bottom: 7px;
+    border-bottom: 0.25rem solid #808080;;
+}
+
+a.startseite {
+    margin-left: 65%;
+}
+
+a.impressum {
+    margin-left: 2%;
+    padding-bottom: 7px;
+    border-bottom: 0.25rem solid white;
+    color: white;
+}
+
+.grey-container {
+    width: 48.81393625%;
+    height: 78.52966024%;
+    padding: 16px;
+    background-color: #333333;
+    margin: auto;
+    color: white;
+    font-family: "Frutiger", sans-serif;
+    line-height: 1.5;
+    overflow: auto;
+}
+
+#close {
+    text-decoration: none;
+    font-size: 25px;
+    float: right;
+}
+
+.grey-container h1 {
+    border-bottom: 1px solid white;
+    margin-top: 1em;
+    font-size: 28px;
+}
+
+.grey-container h2 {
+    font-size: 1.5em;
+    margin: 1em 0;
+}
+
+.grey-container h3 {
+    font-style: italic;
+    margin-top: 0.75em;
+}
+
+.grey-container p {
+    font-size: 1em;
+    margin-top: 10px;
+    text-align: justify;
+}
+
+a {
+    color: white;
+}
+
+span.bold-and-italic {
+    font-weight: bold;
+    font-style: italic;
+}
