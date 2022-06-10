@@ -1,4 +1,4 @@
-
+/* INITIALIZATION */
 * {
         margin: 0;
         padding: 0;
@@ -20,6 +20,8 @@ body {
     height: 100%;
     position: fixed;
 }
+
+/* HEADER */
 
 header {
     height: 100px;
@@ -52,12 +54,15 @@ a.impressum {
     margin-left: 2%;
 }
 
+/* VIDEO */
 
 #logo {
     width: 800px;
     margin: auto;
     display: block;
     }
+
+/* SOCIAL NETWORKS */
 
 .socials {
     width: 100%;
@@ -71,24 +76,6 @@ a.impressum {
     width: 40;
     height: 40px;
 }
-
-/*
-.facebook {
-    width: 50%;
-    height: 100%;
-    position: absolute;
-    top: 60%;
-    left: 43%;
-}
-
-.instagram {
-    width: 50%;
-    height: 100%;
-    position: absolute;
-    top: 60%;
-    left: 54%;
-}
-*/
 
 .facebook {
     margin-right: 75px;
